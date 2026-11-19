@@ -121,7 +121,7 @@ QPushButton:pressed {
      <string notr="true">color: rgb(0, 0, 0);</string>
     </property>
     <property name="text">
-     <string>Palabras: 45</string>
+     <string>Palabras: 0</string>
     </property>
    </widget>
    <widget class="QLabel" name="tvCaracteres">
@@ -145,7 +145,7 @@ QPushButton:pressed {
      <string notr="true">color: rgb(0, 0, 0);</string>
     </property>
     <property name="text">
-     <string>Caracteres: 120</string>
+     <string>Caracteres: 0</string>
     </property>
    </widget>
   </widget>
