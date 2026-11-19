@@ -148,6 +148,27 @@ QPushButton:pressed {
      <string>Caracteres: 0</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>-10</y>
+      <width>481</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>PROYECTO CORTINA GARCIA EMMANUEL ALEJANDRO Y ENRIQUE OMAÑA CHAVARRIA</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -155,7 +176,7 @@ QPushButton:pressed {
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>33</height>
+     <height>18</height>
     </rect>
    </property>
   </widget>
