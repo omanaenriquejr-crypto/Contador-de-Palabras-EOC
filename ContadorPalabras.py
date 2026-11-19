@@ -28,6 +28,16 @@ class ContadorPalabras(QtWidgets.QMainWindow):
         totalCaracteres
         self.tvCaracteres.setText(f"Caracteres: {totalCaracteres}")
 
+        # cambio de color a rojo despues de cierto numero de palabras o caracteres
+        if cantidadPalabras > 50:
+            self.tvPalabras.setStyleSheet("color: red;")
+        else:
+            self.tvPalabras.setStyleSheet("color: black;")
+        if totalCaracteres > 120:
+            self.tvCaracteres.setStyleSheet("color: red;")
+        else:
+            self.tvCaracteres.setStyleSheet("color: black;")
+
 
 app = QtWidgets.QApplication(sys.argv)
 ventana = ContadorPalabras()

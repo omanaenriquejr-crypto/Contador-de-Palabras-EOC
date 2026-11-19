@@ -66,10 +66,10 @@ padding: 10px;</string>
    <widget class="QPushButton" name="btnContar">
     <property name="geometry">
      <rect>
-      <x>552</x>
-      <y>410</y>
-      <width>131</width>
-      <height>31</height>
+      <x>560</x>
+      <y>420</y>
+      <width>191</width>
+      <height>111</height>
      </rect>
     </property>
     <property name="font">
@@ -103,9 +103,9 @@ QPushButton:pressed {
    <widget class="QLabel" name="tvPalabras">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>420</y>
-      <width>141</width>
+      <x>30</x>
+      <y>430</y>
+      <width>441</width>
       <height>21</height>
      </rect>
     </property>
@@ -127,9 +127,9 @@ QPushButton:pressed {
    <widget class="QLabel" name="tvCaracteres">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>420</y>
-      <width>171</width>
+      <x>20</x>
+      <y>510</y>
+      <width>451</width>
       <height>21</height>
      </rect>
     </property>
